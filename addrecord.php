@@ -5,7 +5,7 @@
           $("#rowwss").hide();
 
           if($('#yr').val() == '1'){
-            $('#class').val('Grade 8');
+            $('#class').val('Grades 8');
           }else if($('#yr').val() == '2'){
             $('#class').val('Grade 9');
           }else if($('#yr').val() == '3'){
@@ -53,6 +53,7 @@
               '</tr>';
 
               $("#table-body").append(data);
+          //edit//
       }
       function adds(){
 
